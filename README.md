@@ -9,6 +9,7 @@ x86
 x86_64
 
 # ADB版本
+<img src = "https://github.com/liyw0205/Android-ADB-Fastboot/raw/main/5.jpg" >
 Android Debug Bridge version 1.0.41
 Version 33.0.3-vanzdobz@gmail.com
 # Fastboot版本
@@ -62,3 +63,24 @@ cp -af /data/wowull/ADB/adb /system/bin/ && cp -af /data/wowull/ADB/fastboot /sy
 以root权限执行菜单.sh
 <img src = "https://github.com/liyw0205/Android-ADB-Fastboot/raw/main/3.jpg" >
 <img src = "https://github.com/liyw0205/Android-ADB-Fastboot/raw/main/4.jpg" >
+
+# OTA连接教程
+<img src = "https://github.com/liyw0205/Android-ADB-Fastboot/raw/main/6.jpg" >
+> 先配置ADB环境
+<img src = "https://github.com/liyw0205/Android-ADB-Fastboot/raw/main/11.jpg" >
+> 手机A：开启**开发者模式**，开启**USB调试**，打开**OTG**
+>> 手机**B**开启同手机**A**
+>>> 然后手机**A当**主机 手机**B**当副机
+
+OTG转接口插**A**
+数据线插**B**
+或者双头Type-c/micro数据线（先插**A**后插**B**）
+<img src = "https://github.com/liyw0205/Android-ADB-Fastboot/raw/main/7.jpg" >
+开启循环申请USB调试，如果手机B不弹USB调试则拔插B那头的数据线直至获得USB调试
+<img src = "https://github.com/liyw0205/Android-ADB-Fastboot/raw/main/8.jpg" >
+手机B：√上一律允许使用这台计算机调试，然后再点允许
+<img src = "https://github.com/liyw0205/Android-ADB-Fastboot/raw/main/9.jpg" >
+手机B：√上一律允许使用这台计算机调试，然后再点允许
+<img src = "https://github.com/liyw0205/Android-ADB-Fastboot/raw/main/10.jpg" >
+# 目前已知问题
+fastboot reboot-recovery（fb重启至rec）仅一些设备可以成功重启至rec，其它则重启了设备
