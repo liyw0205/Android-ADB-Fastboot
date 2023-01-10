@@ -86,7 +86,6 @@ OTG转接口插**A**
 手机B：√上一律允许使用这台计算机调试，然后再点允许
 <img src = "https://github.com/liyw0205/Android-ADB-Fastboot/raw/main/9.jpg" >
 
-手机B：√上一律允许使用这台计算机调试，然后再点允许
 <img src = "https://github.com/liyw0205/Android-ADB-Fastboot/raw/main/10.jpg" >
 
 # 目前已知问题
