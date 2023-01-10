@@ -8,10 +8,11 @@ armeabi-v7a
 x86
 x86_64
 
-# ADB版本
 <img src = "https://github.com/liyw0205/Android-ADB-Fastboot/raw/main/5.jpg" >
+# ADB版本
 Android Debug Bridge version 1.0.41
 Version 33.0.3-vanzdobz@gmail.com
+
 # Fastboot版本
 fastboot version 33.0.3
 
