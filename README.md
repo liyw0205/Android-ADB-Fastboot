@@ -16,20 +16,8 @@ fastboot version 33.0.3
 
 ## 特别感谢
 感谢rendiix大佬的编译
-pikaへ　　　　　／|
-　　/＼7　　　 ∠＿/
-　 /　│　　 ／　／
-　│　Z ＿,＜　／　　 /`ヽ
-　│　　　　　ヽ　　 /　　〉
-　 Y　　　　　`　 /　　/
-　ｲ●　､　●　　⊂⊃〈　　/
-　()　 へ　　　　|　＼〈
-　　>ｰ ､_　 ィ　 │ ／／
-　 / へ　　 /　ﾉ＜| ＼＼
-　 ヽ_ﾉ　　(_／　 │／／
-　　7　　　　　　　|／
-　　＞―r￣￣`ｰ―＿6
-
+ʕ ̳• · • ̳ʔ
+/ づ♡ =͟͟͞͞♡
 ## 无Root安装教程
 ### 在Termux内运行
 [点这下载Termux](https://wwu.lanzoul.com/iB8ZD03r51eb)
@@ -66,7 +54,10 @@ https://raw.githubusercontent.com/liyw0205/Android-ADB-Fastboot/main/ADB.zip
 ### 运行ADB菜单
 > 打开MT管理器
 >> 配置环境后输入以下命令可不借助菜单直接运行ADB命令
->>> cp -af /data/wowull/ADB/adb /system/bin/ && cp -af /data/wowull/ADB/fastboot /system/bin/
+>>> 
+```
+cp -af /data/wowull/ADB/adb /system/bin/ && cp -af /data/wowull/ADB/fastboot /system/bin/
+```
 解压ADB工具
 以root权限执行菜单.sh
 <img src = "https://github.com/liyw0205/Android-ADB-Fastboot/raw/main/3.jpg" >
