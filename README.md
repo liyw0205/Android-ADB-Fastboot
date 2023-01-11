@@ -31,7 +31,7 @@ apt install wget && apt install zip && cd && rm -rf ADB-termux.zip && wget https
 ```
 **安卓12专版**
 ```
-apt install wget && apt install zip && cd && rm -rf ADB-termux.zip && wget https://raw.githubusercontent.com/liyw0205/Android-ADB-Fastboot/main/ADB-termux-12.zip && unzip -oq "ADB-termux.zip" && rm -rf ADB-termux-12.zip && rm -rf ADB && mv 安卓ADB环境 ADB && chmod -R 777 ADB
+apt install wget && apt install zip && cd && rm -rf ADB-termux-12.zip && wget https://raw.githubusercontent.com/liyw0205/Android-ADB-Fastboot/main/ADB-termux-12.zip && unzip -oq "ADB-termux-12.zip" && rm -rf ADB-termux-12.zip && rm -rf ADB && mv 安卓ADB环境 ADB && chmod -R 777 ADB
 ```
 ### 运行ADB菜单
 > 配置环境后可不借助菜单直接运行ADB命令
@@ -51,7 +51,7 @@ https://raw.githubusercontent.com/liyw0205/Android-ADB-Fastboot/main/ADB.zip
 ```
 **安卓12专版**
 ```
-https://raw.githubusercontent.com/liyw0205/Android-ADB-Fastboot/main/ADB.zip 
+https://raw.githubusercontent.com/liyw0205/Android-ADB-Fastboot/main/ADB12.zip 
 ```
 ### 运行ADB菜单
 > 打开MT管理器
