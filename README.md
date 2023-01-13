@@ -20,28 +20,9 @@ fastboot version 33.0.3
 感谢rendiix大佬的编译
 ʕ ̳• · • ̳ʔ
 / づ♡ =͟͟͞͞♡
-## 无Root安装教程
-### 在Termux内运行
-[点这下载Termux](https://wwu.lanzoul.com/iB8ZD03r51eb)
-密码：dsfb
-
-### 下载ADB工具
-```
-apt install wget && apt install zip && cd && rm -rf ADB-termux.zip && wget https://raw.githubusercontent.com/liyw0205/Android-ADB-Fastboot/main/ADB-termux.zip && unzip -oq "ADB-termux.zip" && rm -rf ADB-termux.zip && rm -rf ADB && mv 安卓ADB环境 ADB && chmod -R 777 ADB
-```
-**安卓12专版**
-```
-apt install wget && apt install zip && cd && rm -rf ADB-termux-12.zip && wget https://raw.githubusercontent.com/liyw0205/Android-ADB-Fastboot/main/ADB-termux-12.zip && unzip -oq "ADB-termux-12.zip" && rm -rf ADB-termux-12.zip && rm -rf ADB && mv 安卓ADB环境 ADB && chmod -R 777 ADB
-```
-### 运行ADB菜单
-> 配置环境后可不借助菜单直接运行ADB命令
-```
-cd && cd ADB && bash 菜单.sh
-```
-<img src = "https://github.com/liyw0205/Android-ADB-Fastboot/raw/main/1.jpg" >
-<img src = "https://github.com/liyw0205/Android-ADB-Fastboot/raw/main/2.jpg" >
 
 ## 有Root安装教程
+> 不支持无Root使用，我是废物QAQ
 ### 在MT管理器内运行
 [点这下载MT管理器](https://binmt.lanzouy.com/b01bivkzc)
 
